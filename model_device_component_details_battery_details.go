@@ -11,6 +11,5 @@ package squareup
 
 type DeviceComponentDetailsBatteryDetails struct {
 	// The battery charge percentage as displayed on the device.
-	VisiblePercent int32          `json:"visible_percent,omitempty"`
-	ExternalPower  *ExternalPower `json:"external_power,omitempty"`
+	VisiblePercent int32 `json:"visible_percent,omitempty"`
 }

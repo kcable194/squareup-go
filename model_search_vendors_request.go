@@ -11,8 +11,6 @@ package squareup
 
 // Represents an input into a call to [SearchVendors](https://developer.squareup.com/reference/square_2024-01-18/vendors-api/search-vendors).
 type SearchVendorsRequest struct {
-	Filter *Filter `json:"filter,omitempty"`
-	Sort   *Sort   `json:"sort,omitempty"`
 	// A pagination cursor returned by a previous call to this endpoint. Provide this to retrieve the next set of results for the original query.  See the [Pagination](https://developer.squareup.com/docs/working-with-apis/pagination) guide for more information.
 	Cursor string `json:"cursor,omitempty"`
 }

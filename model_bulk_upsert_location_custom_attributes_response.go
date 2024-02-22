@@ -12,7 +12,6 @@ package squareup
 // Represents a [BulkUpsertLocationCustomAttributes](https://developer.squareup.com/reference/square_2024-01-18/location-custom-attributes-api/bulk-upsert-location-custom-attributes) response, which contains a map of responses that each corresponds to an individual upsert request.
 type BulkUpsertLocationCustomAttributesResponse struct {
 	// A map of responses that correspond to individual upsert requests. Each response has the same ID as the corresponding request and contains either a `location_id` and `custom_attribute` or an `errors` field.
-	Values map[string]LocationCustomAttributeUpsertResponse `json:"values,omitempty"`
 	// Any errors that occurred during the request.
 	Errors []ModelError `json:"errors,omitempty"`
 }

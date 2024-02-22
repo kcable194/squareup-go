@@ -12,5 +12,4 @@ package squareup
 // Represents a [BulkUpsertLocationCustomAttributes](https://developer.squareup.com/reference/square_2024-01-18/location-custom-attributes-api/bulk-upsert-location-custom-attributes) request.
 type BulkUpsertLocationCustomAttributesRequest struct {
 	// A map containing 1 to 25 individual upsert requests. For each request, provide an arbitrary ID that is unique for this `BulkUpsertLocationCustomAttributes` request and the information needed to create or update a custom attribute.
-	Values map[string]LocationCustomAttributeUpsertRequest `json:"values"`
 }

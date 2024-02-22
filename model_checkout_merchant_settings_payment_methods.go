@@ -10,8 +10,4 @@
 package squareup
 
 type CheckoutMerchantSettingsPaymentMethods struct {
-	ApplePay         *PaymentMethod    `json:"apple_pay,omitempty"`
-	GooglePay        *PaymentMethod    `json:"google_pay,omitempty"`
-	CashApp          *PaymentMethod    `json:"cash_app,omitempty"`
-	AfterpayClearpay *AfterpayClearpay `json:"afterpay_clearpay,omitempty"`
 }

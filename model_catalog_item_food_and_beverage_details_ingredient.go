@@ -11,7 +11,6 @@ package squareup
 
 // Describes the ingredient used in a `FOOD_AND_BEV` item.
 type CatalogItemFoodAndBeverageDetailsIngredient struct {
-	Type_ *DietaryPreferenceType `json:"type,omitempty"`
 	// The name of the ingredient from a standard pre-defined list. This should be null if it's a custom dietary preference.
 	StandardName string `json:"standard_name,omitempty"`
 	// The name of a custom user-defined ingredient. This should be null if it's a standard dietary preference.

@@ -12,5 +12,4 @@ package squareup
 // Represents a [BulkUpsertMerchantCustomAttributes](https://developer.squareup.com/reference/square_2024-01-18/merchant-custom-attributes-api/bulk-upsert-merchant-custom-attributes) request.
 type BulkUpsertMerchantCustomAttributesRequest struct {
 	// A map containing 1 to 25 individual upsert requests. For each request, provide an arbitrary ID that is unique for this `BulkUpsertMerchantCustomAttributes` request and the information needed to create or update a custom attribute.
-	Values map[string]MerchantCustomAttributeUpsertRequest `json:"values"`
 }

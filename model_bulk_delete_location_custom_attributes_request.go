@@ -12,5 +12,4 @@ package squareup
 // Represents a [BulkDeleteLocationCustomAttributes](https://developer.squareup.com/reference/square_2024-01-18/location-custom-attributes-api/bulk-delete-location-custom-attributes) request.
 type BulkDeleteLocationCustomAttributesRequest struct {
 	// The data used to update the `CustomAttribute` objects. The keys must be unique and are used to map to the corresponding response.
-	Values map[string]LocationCustomAttributeDeleteRequest `json:"values"`
 }

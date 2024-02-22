@@ -11,5 +11,4 @@ package squareup
 
 // Details about a refund's destination.
 type DestinationDetails struct {
-	CardDetails *CardRefundDetails `json:"card_details,omitempty"`
 }

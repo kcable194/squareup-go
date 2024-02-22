@@ -12,5 +12,4 @@ package squareup
 // Represents a bulk delete request for one or more order custom attributes.
 type BulkDeleteOrderCustomAttributesRequest struct {
 	// A map of requests that correspond to individual delete operations for custom attributes.
-	Values map[string]DeleteCustomAttribute `json:"values"`
 }

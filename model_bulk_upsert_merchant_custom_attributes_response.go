@@ -12,7 +12,6 @@ package squareup
 // Represents a [BulkUpsertMerchantCustomAttributes](https://developer.squareup.com/reference/square_2024-01-18/merchant-custom-attributes-api/bulk-upsert-merchant-custom-attributes) response, which contains a map of responses that each corresponds to an individual upsert request.
 type BulkUpsertMerchantCustomAttributesResponse struct {
 	// A map of responses that correspond to individual upsert requests. Each response has the same ID as the corresponding request and contains either a `merchant_id` and `custom_attribute` or an `errors` field.
-	Values map[string]MerchantCustomAttributeUpsertResponse `json:"values,omitempty"`
 	// Any errors that occurred during the request.
 	Errors []ModelError `json:"errors,omitempty"`
 }

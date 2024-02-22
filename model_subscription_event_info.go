@@ -12,6 +12,5 @@ package squareup
 // Provides information about the subscription event.
 type SubscriptionEventInfo struct {
 	// A human-readable explanation for the event.
-	Detail string    `json:"detail,omitempty"`
-	Code   *InfoCode `json:"code,omitempty"`
+	Detail string `json:"detail,omitempty"`
 }

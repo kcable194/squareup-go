@@ -12,7 +12,6 @@ package squareup
 // Represents a [BulkDeleteLocationCustomAttributes](https://developer.squareup.com/reference/square_2024-01-18/location-custom-attributes-api/bulk-delete-location-custom-attributes) response, which contains a map of responses that each corresponds to an individual delete request.
 type BulkDeleteLocationCustomAttributesResponse struct {
 	// A map of responses that correspond to individual delete requests. Each response has the same key as the corresponding request.
-	Values map[string]LocationCustomAttributeDeleteResponse `json:"values"`
 	// Any errors that occurred during the request.
 	Errors []ModelError `json:"errors,omitempty"`
 }

@@ -12,5 +12,4 @@ package squareup
 // Represents a bulk upsert request for one or more order custom attributes.
 type BulkUpsertOrderCustomAttributesRequest struct {
 	// A map of requests that correspond to individual upsert operations for custom attributes.
-	Values map[string]UpsertCustomAttribute `json:"values"`
 }

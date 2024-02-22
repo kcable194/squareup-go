@@ -17,6 +17,5 @@ type DeviceComponentDetailsWiFiDetails struct {
 	// The string representation of the device’s IPv4 address.
 	IpAddressV4 string `json:"ip_address_v4,omitempty"`
 	// The security protocol for a secure connection (e.g. WPA2). None provided if the connection is unsecured.
-	SecureConnection string       `json:"secure_connection,omitempty"`
-	SignalStrength   *Measurement `json:"signal_strength,omitempty"`
+	SecureConnection string `json:"secure_connection,omitempty"`
 }

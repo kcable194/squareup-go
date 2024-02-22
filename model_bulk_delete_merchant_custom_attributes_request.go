@@ -12,5 +12,4 @@ package squareup
 // Represents a [BulkDeleteMerchantCustomAttributes](https://developer.squareup.com/reference/square_2024-01-18/merchant-custom-attributes-api/bulk-delete-merchant-custom-attributes) request.
 type BulkDeleteMerchantCustomAttributesRequest struct {
 	// The data used to update the `CustomAttribute` objects. The keys must be unique and are used to map to the corresponding response.
-	Values map[string]MerchantCustomAttributeDeleteRequest `json:"values"`
 }

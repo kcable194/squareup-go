@@ -11,8 +11,6 @@ package squareup
 
 // The settings allowed for AfterpayClearpay.
 type CheckoutMerchantSettingsPaymentMethodsAfterpayClearpay struct {
-	OrderEligibilityRange *EligibilityRange `json:"order_eligibility_range,omitempty"`
-	ItemEligibilityRange  *EligibilityRange `json:"item_eligibility_range,omitempty"`
 	// Indicates whether the payment method is enabled for the account.
 	Enabled bool `json:"enabled,omitempty"`
 }

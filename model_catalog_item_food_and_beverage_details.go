@@ -14,7 +14,5 @@ type CatalogItemFoodAndBeverageDetails struct {
 	// The calorie count (in the unit of kcal) for the `FOOD_AND_BEV` type of items.
 	CalorieCount int32 `json:"calorie_count,omitempty"`
 	// The dietary preferences for the `FOOD_AND_BEV` item.
-	DietaryPreferences []DietaryPreference `json:"dietary_preferences,omitempty"`
 	// The ingredients for the `FOOD_AND_BEV` type item.
-	Ingredients []Ingredient `json:"ingredients,omitempty"`
 }

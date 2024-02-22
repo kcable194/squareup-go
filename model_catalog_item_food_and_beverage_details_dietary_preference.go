@@ -11,7 +11,6 @@ package squareup
 
 // Dietary preferences that can be assigned to an `FOOD_AND_BEV` item and its ingredients.
 type CatalogItemFoodAndBeverageDetailsDietaryPreference struct {
-	Type_ *DietaryPreferenceType `json:"type,omitempty"`
 	// The name of the dietary preference from a standard pre-defined list. This should be null if it's a custom dietary preference.
 	StandardName string `json:"standard_name,omitempty"`
 	// The name of a user-defined custom dietary preference. This should be null if it's a standard dietary preference.

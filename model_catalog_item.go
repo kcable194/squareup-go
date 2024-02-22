@@ -52,8 +52,7 @@ type CatalogItem struct {
 	// A list of IDs representing channels, such as a Square Online site, where the item can be made visible or available.
 	Channels []string `json:"channels,omitempty"`
 	// Indicates whether this item is archived (`true`) or not (`false`).
-	IsArchived             bool                    `json:"is_archived,omitempty"`
-	EcomSeoData            *CatalogEcomSeoData     `json:"ecom_seo_data,omitempty"`
-	FoodAndBeverageDetails *FoodAndBeverageDetails `json:"food_and_beverage_details,omitempty"`
-	ReportingCategory      *CatalogObjectCategory  `json:"reporting_category,omitempty"`
+	IsArchived        bool                   `json:"is_archived,omitempty"`
+	EcomSeoData       *CatalogEcomSeoData    `json:"ecom_seo_data,omitempty"`
+	ReportingCategory *CatalogObjectCategory `json:"reporting_category,omitempty"`
 }

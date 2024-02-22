@@ -19,7 +19,6 @@ type SubscriptionEvent struct {
 	EffectiveDate string `json:"effective_date"`
 	// The day-of-the-month the billing anchor date was changed to, if applicable.
 	MonthlyBillingAnchorDate int32 `json:"monthly_billing_anchor_date,omitempty"`
-	Info                     *Info `json:"info,omitempty"`
 	// A list of Phases, to pass phase-specific information used in the swap.
 	Phases []Phase `json:"phases,omitempty"`
 	// The ID of the subscription plan variation associated with the subscription.
